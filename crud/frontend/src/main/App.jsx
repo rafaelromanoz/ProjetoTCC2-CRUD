@@ -1,19 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
-
 import './App.css'
+import {HashRouter} from 'react-router-dom'
 import React from 'react'
+import Routes from './Routes'
 
 import Logo from '../components/templates/Logo'
 import Nav from '../components/templates/Nav'
-import Main from '../components/templates/Main'
 import Footer from '../components/templates/Footer'
 
+
 export default props=>
+<HashRouter>
 <div className="app">
     <Logo />
     <Nav />
-    <Main icon="home" title="Início"
-    subtitle="Projeto TCC2 - Sistema de Gerenciamento de Laboratório de prótese dentária."/>
+    <Routes />
     <Footer />
 </div>
+</HashRouter>
