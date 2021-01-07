@@ -1,21 +1,25 @@
 import './Nav.css'
 import 'font-awesome/css/font-awesome.min.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 export default props=>
 <aside className="menu-area">
     <nav className="menu">
-        <a href="#/">
+        <Link to="/">
             <i className="fa fa-home"></i> Inicio
-        </a>
-        <a href="#/users">
+        </Link>
+        <Link to="/users">
             <i className="fa fa-users"></i> Clientes
-        </a>
-        <a href="#/servicos">
+        </Link>
+        <Link to="/servicos">
             <i class="fa fa-envelope-square"></i> Serviços
-        </a>
-        <a href="#/estoque">
+        </Link>
+        <Link to="/estoque">
             <i class="fas fa-database"></i> Estoque
-        </a>
+        </Link>
+        
+
+        
 
 
 
