@@ -1,7 +1,7 @@
 import './Header.css'
 import React from 'react'
 
-export default props=>
+export default props=>//  um cabeçalho que possui a classe header
 <header className="header d-none d-sm-flex flex-column">
     <h1 className="mt-3">
         <i className={`fa fa-${props.icon}`}></i>{props.title}

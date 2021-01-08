@@ -12,9 +12,11 @@ import Nav from '../components/templates/Nav'
 import Footer from '../components/templates/Footer'
 
 
+
 export default props=>
 <HashRouter>
 <div className="app">
+    
     <Logo />
     <Nav />
     <Routes />

@@ -3,17 +3,47 @@
     {
       "id": 1,
       "name": "Arthur Oliveira",
-      "email": "aoliveira@gmail.com"
+      "email": "aoliveira@gmail.com",
+      "cpf":"151.151.151-85",
+      "cnpj":"34534532453245",
+      "cro": "15511515",
+      "endereco":"Rua benedito geraldo da silveira",
+      "tefone":"991516485",
+      "celular":"5555555555"
+          
     },
     {
-      "id": 2,
-      "name": "Maria julia da silva",
-      "email": "mjds@empresa.com"
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@gmail.com",
+      "cpf":"151.151.151-85",
+      "cnpj":"34534532453245",
+      "cro": "15511515",
+      "endereco":"Rua benedito geraldo da silveira",
+      "tefone":"991516485",
+      "celular":"5555555555"
     },
     {
-      "name": "Tadeu Wilson",
-      "email": "tadeu.wilson@gmail.com",
-      "id": 3
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@gmail.com",
+      "cpf":"151.151.151-85",
+      "cnpj":"34534532453245",
+      "cro": "15511515",
+      "endereco":"Rua benedito geraldo da silveira",
+      "tefone":"991516485",
+      "celular":"5555555555"
+    },
+    {
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@gmail.com",
+      "cpf":"151.151.151-85",
+      "cnpj":"34534532453245",
+      "cro": "15511515",
+      "endereco":"Rua benedito geraldo da silveira",
+      "tefone":"991516485",
+      "celular":"5555555555"
     }
   ]
 }
