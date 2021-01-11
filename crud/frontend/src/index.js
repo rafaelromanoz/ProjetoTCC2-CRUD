@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './main/App';
 
+import App from './main/App';
+import 'normalize.css'
+import './index.css';
 
 
 ReactDOM.render(

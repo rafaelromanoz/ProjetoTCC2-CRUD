@@ -12,7 +12,7 @@ const headerProps={
 
 const baseURL = 'http://localhost:3001/users'
 const initialState={
-    user:{name:'',email:''},
+    user:{name:'',email:'',endereco:'',telefone:'',cpf:'',cnpj:''},
     list:[]
 }
 
@@ -83,6 +83,51 @@ export default class UserCrud extends Component{
                                 placeholder="Digite o e-mail..." />
                         </div>
                     </div>
+                    <div className="col-12 col-md-6">
+                    <div className="form-group">
+                        <label>Endereço</label>
+                        <input type="text"className="form-control"
+                        name="endereco"
+                        value={this.state.user.endereco}
+                        onChange={e=>this.updateField(e)}
+                        placeholder="Digite o Endereço"/>
+                    </div>
+                    </div>
+                    <div className="col-12 col-md-6">
+                    <div className="form-group">
+                        <label>Telefone</label>
+                        <input type="text" className="form-control"
+                        name="telefone"
+                        value={this.state.user.telefone}
+                        onChange={e=>this.updateField(e)}
+                        placeholder="Digite o telefone"/>
+
+                        </div>
+
+                    </div>
+                    <div className="col-12 col-md-6">
+                    <div className="form-group">
+                        <label>CPF</label>
+                        <input type="text" className="form-control"
+                        name="cpf"
+                        value={this.state.user.cpf}
+                        onChange={e=>this.updateField(e)}
+                        placeholder="Digite o CPF "/>
+
+                        </div>
+                        </div>
+
+                        <div className="col-12 col-md-6">
+                    <div className="form-group">
+                        <label>CNPJ</label>
+                        <input type="text" className="form-control"
+                        name="cnpj"
+                        value={this.state.user.cnpj}
+                        onChange={e=>this.updateField(e)}
+                        placeholder="Digite o CNPJ "/>
+
+                        </div>
+                        </div>
                 </div>
 
                 <hr />
@@ -122,6 +167,10 @@ export default class UserCrud extends Component{
                         <th>ID</th>
                         <th>Nome</th>
                         <th>E-mail</th>
+                        <th>Endereço</th>
+                        <th>Telefone</th>
+                        <th>CPF</th>
+                        <th>CNPJ</th>
                         <th>Ações</th>
                     </tr>
                 </thead>
@@ -139,6 +188,10 @@ export default class UserCrud extends Component{
                    <td>{user.id}</td> 
                    <td>{user.name}</td> 
                    <td>{user.email}</td>
+                   <td>{user.endereco}</td>
+                   <td>{user.telefone}</td>
+                   <td>{user.cpf}</td>
+                   <td>{user.cnpj}</td>
                    <td>
                        <button className="btn btn-warning"
                            onClick={()=>this.load(user)}>
