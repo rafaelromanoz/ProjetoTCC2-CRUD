@@ -1,4 +1,29 @@
 {
-  "users": [],
-  "servicos": []
+  "users": [
+    {
+      "name": "sdf",
+      "email": "fsda",
+      "endereco": "sdf",
+      "telefone": "fsda",
+      "cpf": "fds",
+      "cnpj": "fsda",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "endereco": "",
+      "telefone": "244444",
+      "cpf": "",
+      "cnpj": "",
+      "id": 2
+    }
+  ],
+  "servicos": [
+    {
+      "tipo": "fsdafsdf",
+      "preco": "fdgfds",
+      "id": 1
+    }
+  ]
 }

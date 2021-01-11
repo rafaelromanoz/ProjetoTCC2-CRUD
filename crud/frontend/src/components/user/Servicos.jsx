@@ -51,7 +51,7 @@ export default class Servicos extends Component{
     
     updateField(event){
         const user={...this.state.user}
-        user[event.target.tipo]=event.target.value
+        user[event.target.name]=event.target.value
         this.setState({user})
 
     }
@@ -74,11 +74,11 @@ export default class Servicos extends Component{
                     <div className="col-12 col-md-3">
                         <div className="form-group">
                             <label>Preço</label>
-                            <input type="text" className="form-control"
+                            <input type="number" className="form-control"
                                 name="preco"
                                 value={this.state.user.preco}
                                 onChange={e => this.updateField(e)}
-                                placeholder="Digite o preço..." />
+                                placeholder="Digite o preço..."/>
                         </div>
                     </div>
                     </div>

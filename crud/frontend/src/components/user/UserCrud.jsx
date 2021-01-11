@@ -76,7 +76,7 @@ export default class UserCrud extends Component{
                     <div className="col-12 col-md-6">
                         <div className="form-group">
                             <label>E-mail</label>
-                            <input type="text" className="form-control"
+                            <input type="email" className="form-control"
                                 name="email"
                                 value={this.state.user.email}
                                 onChange={e => this.updateField(e)}
@@ -96,7 +96,7 @@ export default class UserCrud extends Component{
                     <div className="col-12 col-md-6">
                     <div className="form-group">
                         <label>Telefone</label>
-                        <input type="text" className="form-control"
+                        <input type="tel" className="form-control"
                         name="telefone"
                         value={this.state.user.telefone}
                         onChange={e=>this.updateField(e)}
