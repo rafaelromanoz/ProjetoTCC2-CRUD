@@ -1,29 +1,35 @@
 {
   "users": [
     {
-      "name": "sdf",
-      "email": "fsda",
-      "endereco": "sdf",
-      "telefone": "fsda",
-      "cpf": "fds",
-      "cnpj": "fsda",
+      "name": "Rafael romano",
+      "email": "rafa-kun@hotmail.com",
+      "endereco": "Rua asjjdasjdsa",
+      "telefone": "35221",
+      "cpf": "121.500.826-08",
+      "cro": "",
+      "cnpj": "55555",
       "id": 1
-    },
-    {
-      "name": "",
-      "email": "",
-      "endereco": "",
-      "telefone": "244444",
-      "cpf": "",
-      "cnpj": "",
-      "id": 2
     }
   ],
   "servicos": [
     {
-      "tipo": "fsdafsdf",
-      "preco": "fdgfds",
+      "tipo": "Prótese total",
+      "preco": "60",
       "id": 1
     }
+  ],
+  "fornecedores": [
+    {
+      "name": "Rafael",
+      "email": "Rafa",
+      "endereco": "werwe",
+      "telefone": "werwer",
+      "cnpj": "werwer",
+      "cro": "wrer",
+      "id": 1
+    }
+  ],
+  "estoque":[
+    
   ]
 }
