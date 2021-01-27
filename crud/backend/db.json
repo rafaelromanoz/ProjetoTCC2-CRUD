@@ -1,13 +1,13 @@
 {
   "users": [
     {
-      "name": "Rafael romano",
+      "name": "Rafael",
       "email": "rafa-kun@hotmail.com",
-      "endereco": "Rua asjjdasjdsa",
-      "telefone": "35221",
-      "cpf": "121.500.826-08",
+      "endereco": "Rua Benedito geraldo da silveira 28",
+      "telefone": "35991516485",
+      "cpf": "12150082608",
       "cro": "",
-      "cnpj": "55555",
+      "cnpj": "4554852",
       "id": 1
     }
   ],
@@ -29,7 +29,5 @@
       "id": 1
     }
   ],
-  "estoque":[
-    
-  ]
+  "estoque": []
 }

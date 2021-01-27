@@ -78,7 +78,7 @@ export default class Servicos extends Component{
                                 name="preco"
                                 value={this.state.user.preco}
                                 onChange={e => this.updateField(e)}
-                                placeholder="Digite o preço..."/>
+                                placeholder="Digite o preço R$..." /> 
                         </div>
                     </div>
                     </div>
@@ -134,9 +134,9 @@ export default class Servicos extends Component{
         return this.state.list.map(user=>{
             return(
                 <tr key={user.id}>
-                   <td>{user.id}</td> 
-                   <td>{user.tipo}</td> 
-                   <td>{user.preco}</td>
+                   <td>{user.id} </td> 
+                   <td>{user.tipo} </td> 
+                   <td>{user.preco} R$</td>
                    <td>
                        <button className="btn btn-warning"
                            onClick={()=>this.load(user)}>
